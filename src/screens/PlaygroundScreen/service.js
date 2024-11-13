@@ -1,4 +1,5 @@
-import 'dotenv/config';
+
+
 
 
 const languageCodeMap = {
@@ -14,7 +15,7 @@ async function getSubmission(tokenId,callback){
         const options = {
             method: 'GET',
             headers: {
-                'x-rapidapi-key': process.env.API_KEY,
+                'x-rapidapi-key': '079a4c8bd6msh5041ef0ab5ae67cp1f55c0jsnf17d2c1dafd5',
                 'x-rapidapi-host': 'judge0-ce.p.rapidapi.com'
             }
         };
